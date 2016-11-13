@@ -1,0 +1,30 @@
+{
+  "name": "@rclark/repos",
+  "version": "1.0.0",
+  "description": "Github repository inventory and analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc tape test/*.test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rclark/repos.git"
+  },
+  "author": "Ryan Clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rclark/repos/issues"
+  },
+  "homepage": "https://github.com/rclark/repos#readme",
+  "devDependencies": {
+    "eslint": "^3.10.0",
+    "eslint-plugin-node": "^3.0.3",
+    "nyc": "^8.4.0",
+    "opener": "^1.4.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  },
+  "dependencies": {
+    "fasterror": "^1.1.0"
+  }
+}
